@@ -1,0 +1,6 @@
+servlets\searchResultsServlet.class
+servlets\trackServlet.class
+servlets\specsServlet.class
+database\DBConnector.class
+servlets\dataSearchServlet.class
+servlets\logRunServlet.class

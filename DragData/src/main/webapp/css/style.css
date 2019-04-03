@@ -1,0 +1,59 @@
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header{
+	background-image: url('../images/gears.jpg');
+	color:white;
+	text-align: center;
+	font-family: serif;
+	font-size: 25px;
+}
+
+#navbar{
+	background-color: black;
+	color: red;
+	text-align: center;
+}
+
+#navbar ul{
+	padding:0;
+	list-style:none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color: lightblue;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right:28px;
+}
+
+#showcase{
+	background-image: url('../images/memphisracing.jpg');
+	background-position: center;
+	min-height: 600px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+#showcase2{
+	background-image: url('../images/darkgraybackground.jpg');
+	min-height: 495px;
+	color:lightblue;
+	text-align: center;
+	font-size: 19px;
+	line-height: 28px;
+}
+
+#showcase3{
+	align-items: center;
+	background-image: url('../images/darkgraybackground.jpg');
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Drag Data logRun Servlet</display-name>
+  <servlet>
+    <servlet-name>logRunServlet</servlet-name>
+    <servlet-class>servlets.logRunServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>trackServlet</servlet-name>
+    <servlet-class>servlets.trackServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>specsServlet</servlet-name>
+    <servlet-class>servlets.specsServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>dataSearchServlet</servlet-name>
+    <servlet-class>servlets.dataSearchServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>searchResultsServlet</servlet-name>
+    <servlet-class>servlets.searchResultsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>logRunServlet</servlet-name>
+    <url-pattern>/logRunServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>trackServlet</servlet-name>
+    <url-pattern>/trackServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>specsServlet</servlet-name>
+    <url-pattern>/specsServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>dataSearchServlet</servlet-name>
+    <url-pattern>/dataSearchServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>searchResultsServlet</servlet-name>
+    <url-pattern>/searchResultsServlet</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>
